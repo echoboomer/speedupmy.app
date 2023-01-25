@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: speedupmyapp
+
+bases:
+  - ../../base/
+
+images:
+  - name: eb129/speedupmyapp
+    newTag: stable
+
+generatorOptions:
+  disableNameSuffixHash: true
