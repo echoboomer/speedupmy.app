@@ -7,7 +7,7 @@ bases:
 
 images:
   - name: eb129/speedupmyapp
-    newTag: stable
+    newTag: latest
 
 generatorOptions:
   disableNameSuffixHash: true

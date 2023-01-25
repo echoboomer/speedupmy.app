@@ -22,7 +22,7 @@ spec:
         - name: speedupmyapp
           image: eb129/speedupmyapp
           imagePullPolicy: Always
-          command: ['npm', 'run', 'start-prod']
+          command: ['npm', 'run', 'dev']
           ports:
             - name: http
               containerPort: 8080
