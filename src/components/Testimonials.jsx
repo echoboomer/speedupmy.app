@@ -16,7 +16,7 @@ const testimonials = [
     },
     {
       content:
-        'I\'ve heard aobut this probably a thousand times but never thought to try it. I\'ll never go back.',
+        'I\'ve heard about this probably a thousand times but never thought to try it. I\'ll never go back.',
       author: {
         name: 'Elise',
         role: 'Software Engineer',
