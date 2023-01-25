@@ -51,8 +51,8 @@ export function Faqs() {
             FAQ
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            What's the catch? There is no catch. Look anywhere - Reddit, Google, StackOverflow,
-            literally anywhere, and you'll find success stories referencing this practice in action.
+            What&apos;s the catch? There is no catch. Look anywhere - Reddit, Google, StackOverflow,
+            literally anywhere, and you&apos;ll find success stories referencing this practice in action.
             Here are some of the questions we receive most frequently.
           </p>
         </div>

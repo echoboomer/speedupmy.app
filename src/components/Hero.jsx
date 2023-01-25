@@ -22,7 +22,7 @@ export function Hero() {
       <div>
         <p className="relative mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-900">
           Application performance is important to any organization that craves extreme performance
-          down to the millisecond. What's the <i>easiest</i> way to make your application faster?
+          down to the millisecond. What&apos;s the <i>easiest</i> way to make your application faster?
           Start by making it <strong>slower.</strong>
         </p>
       </div>

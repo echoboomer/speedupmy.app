@@ -82,7 +82,7 @@ export function PrimaryFeatures() {
               </dt>
               <dd className="mt-2 text-base text-gray-500">
                 This is entirely <strong>optional</strong>. Wait until the right moment 
-                to bring up how slow the code is. With luck, you won't even have to. 
+                to bring up how slow the code is. With luck, you won&apos;t even have to. 
               </dd>
             </div>
 

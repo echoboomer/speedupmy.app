@@ -88,7 +88,7 @@ export function Testimonials() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Before building and pushing to version control, add a few of these to your code.
-            Unsure where to add them? We've developed a handy generator that will randomly 
+            Unsure where to add them? We&apos;ve developed a handy generator that will randomly 
             select places in your code to obscure them.
           </p>
         </div>
