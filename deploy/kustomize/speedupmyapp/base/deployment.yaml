@@ -5,6 +5,7 @@ metadata:
     app: speedupmyapp
   name: speedupmyapp
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: speedupmyapp
@@ -22,7 +23,7 @@ spec:
         - name: speedupmyapp
           image: eb129/speedupmyapp
           imagePullPolicy: Always
-          command: ['npm', 'run', 'dev']
+          command: ['npm', 'run', 'start']
           ports:
             - name: http
               containerPort: 3000
@@ -33,7 +34,7 @@ spec:
               port: 3000
               scheme: HTTP
             initialDelaySeconds: 30
-            periodSeconds: 10
+            periodSeconds: 30
             timeoutSeconds: 10
           readinessProbe:
             httpGet:
@@ -41,7 +42,7 @@ spec:
               port: 3000
               scheme: HTTP
             initialDelaySeconds: 30
-            periodSeconds: 10
+            periodSeconds: 30
             timeoutSeconds: 10
           resources:
             limits:

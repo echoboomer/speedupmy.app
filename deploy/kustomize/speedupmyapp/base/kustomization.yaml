@@ -5,7 +5,5 @@ namespace: speedupmyapp
 resources:
   - namespace.yaml
   - deployment.yaml
-  - hpa.yaml
   - ingress.yaml
-  - pdb.yaml
   - service.yaml
