@@ -56,7 +56,7 @@ const testimonials = [
     },
     {
       content:
-        'I mean... you kind of have to respect it at this point.',
+        'I am impressed by how often my Junior engineers speed up our applications. Highly recommended!',
       author: {
         name: 'Peter',
         role: 'CTO',

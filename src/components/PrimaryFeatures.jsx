@@ -58,7 +58,7 @@ export function PrimaryFeatures() {
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Make yourself look better today, yesterday, tomorrow, and years from now.
+              Make yourself look better tomorrow by taking action today.
             </h2>
           </div>
           <dl className="mt-10 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 sm:space-y-0 lg:col-span-2 lg:mt-0">
