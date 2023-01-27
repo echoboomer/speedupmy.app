@@ -49,7 +49,7 @@ export function Examples() {
     <section
       id="examples"
       aria-label="Examples"
-      className="bg-slate-900 py-20 sm:py-16"
+      className="bg-slate-700 py-20 sm:py-16"
     >
       <Container>
         <div className="md:text-center">
